@@ -1,0 +1,384 @@
+/*applys to everything
+*/
+
+* {
+    box-sizing: border-box;
+}
+ 
+body { 
+    margin: 0;
+    padding: 0;
+    background: #778899;
+}
+
+li {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    list-style: none;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: center;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 33px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    transition: .3s;
+}
+
+h2 {
+
+    font-family: 'Amatic SC', cursive;
+    font-size: 90px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*rps top nav and logo
+*/
+
+.rps_logo {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.nav-con {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-con2 {
+    flex-direction: column;
+    margin-left: 700px;
+}
+
+/*score board
+*/
+
+.paper {
+    position: absolute;
+    left: 34%;
+}
+
+.scr-brd {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px; 
+
+}
+
+.scr-con {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    right: 96vh;
+    top: 30px;
+}
+
+.score {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 160px;
+    opacity: .8;
+}
+
+.how_2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    opacity: .8;
+    position: absolute;
+    z-index: 3;
+    left: 150px;
+    top: 200px;
+    padding-bottom: 0px;
+    font-weight: bolder;
+}
+
+.wl_con {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    right: 94vh;
+    top: 190px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 70px;
+    opacity: .8;
+}
+
+.d_con {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    right: 91vh;
+    top: 190px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 70px;
+    opacity: .8;
+}
+
+.outcome-win {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    right: 91vh;
+    top: 70px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    opacity: .8;
+    text-align: center;
+}
+
+.outcome-lose {
+    display: none;
+    flex-direction: row;
+    position: absolute;
+    z-index: 2;
+    right: 87vh;
+    top: 70px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+    font-size: 65px;
+    opacity: .8;
+    text-align: center;
+}
+
+
+
+
+.reset1 {
+    position: absolute;
+    z-index: 3;
+    right: 600px;
+    top: 250px;
+    cursor: pointer;
+}
+
+.reset2 {
+    display: none;
+    position: absolute;
+    z-index: 3;
+    right: 600px;
+    top: 250px;
+    cursor: pointer;
+}
+
+.reset3 {
+    position: absolute;
+    z-index: 2;
+    right: 400px;
+    top: 250px;
+    opacity: .9;
+}
+
+
+/*rock paper scissors images
+*/
+
+.img-spc {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.rps-con {
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+#rock {
+   cursor: pointer;
+   position: absolute;
+   top: 800px;
+   left: 10px;
+}
+
+#paper {
+    cursor: pointer;
+    position: absolute;
+    left: 35%;
+    top: 800px;
+}
+
+#scissors {
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 790px;
+}
+
+#rock:hover, #paper:hover, #scissors:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+.spacing {
+    margin-left: 230px;
+    margin-right: 230px;
+   
+}
+
+
+/*section after game 
+*/          
+.sec-con {
+    position: relative;
+}
+
+.white-sq {
+    background: white;
+    width: 100%;
+    height: 1500px;
+   
+}
+
+.dsh-line {
+    top: 1547px;
+    position: absolute;
+    z-index: 1;
+}
+.cut-h {
+    font-size: 20px;
+    font-family: helvetica;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.white-sq h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px dashed;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 300px;
+    box-sizing: content-box;
+}
+
+.h2p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    text-align: center;
+    padding: 0 50px;
+    font-weight: 50;
+}
+
+.win-chart {
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+/*section after rules 
+*/
+.dsh-line2 {
+    position: absolute;
+    z-index: 2;
+}
+
+.tan-sq {
+    background: white;
+    width: 100%;
+    height: 1500px;
+    position: absolute;
+}
+
+.tan-sq h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 70px;
+    font-weight: bolder;
+    text-align: center;
+    border: 2px dashed;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 600px;
+    box-sizing: content-box;
+  
+}
+
+.janken {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+}
+
+/*contacts
+*/
+.contacts {
+    background: #323a45	;
+    width: 100%;
+    height: 1700px;
+    position: relative;
+    z-index: -1;
+}
+
+.ul-con {
+   position: absolute;
+   bottom: 50px;
+}
+
+.ul-con li {
+    font-size: 55px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

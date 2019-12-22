@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title>Rock Paper Scissors Game</title>
+        <link rel = "icon" type = "image/png" href = "img/rock.png">
+        <link href="newrps.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="nav-con">
+            <img class="rps_logo" src="img/rps logo.png" width="300px" height="250px">
+            <div class="nav-con2">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#h2">About</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <img src="img/dashed line.png">
+            </div>
+        </div>
+       
+        <div class="scr-brd">
+            <img src="img/player-comp.png">
+            <div class="scr-con">
+                <div class="score" id="pScore">0</div>
+                <div class="score" id="colon">:</div>
+                <div class="score" id="cScore">0</div>
+            </div>
+
+            <div class="reset-con">
+                <img src="img/button.png" class="reset1" width="100px" height="100px">
+                <img src="img/button-click.png" class="reset2" width="100px" height="100px">
+                <img src="img/reset.png" class="reset3" width="230px" height="150px">
+            </div>
+
+        
+
+            <div class="how_2">
+                <p>first to 10 wins! <br> (click any of the images to start)</p>
+            </div>
+            <div>
+                <div class="outcome-win">you beat <br> the computer!</div>
+                <div class="outcome-lose">you lost <br> to a computer...</div>
+                <div class="wl_con" id="win">you won!</div>
+                <div class="wl_con" id="lose">you lose</div>
+                <div class="d_con" id="draw">it's a draw!</div>
+            </div>
+            <img class="paper" src="img/scoreboard.png">
+        </div>
+
+            <div>
+                <img id="rock" class="img-spc" src="img/rock.png" width="500px" height="350px" alt="image of a rock">
+                <img id="paper"  class="img-spc" src="img/paper.png" width="380px" height="380px" alt="image of a paper ball">
+                <img id="scissors" class="img-spc" src="img/scissors.png" width="480px" height="500px" alt="image of scissors">
+            </div>
+
+            <div class="rps-con"> 
+                <h2 class="spacing">Rock</h2>
+                <h2 class="spacing">Paper</h2>
+                <h2 class="spacing">Scissors</h2>
+                
+            </div>
+
+            <img class="dsh-line" src="img/longerdash.png">
+        </div>
+
+        <div class="white-sq">
+            <p class="cut-h" id="home">"Cut Here"</p>
+            <h2>How to Play</h2>
+            <p class="h2p">You dont know how to Play?! Thats ok, look, its really easy; scissors beats paper, paper beats rock, and rock beats scissors. Its that simple and you can play it anywhere! <br> Heres a chart to get a good visual</p>
+            <img class="win-chart" src="img/win-chart.png" alt="round chart with win values">
+        </div>
+        
+        <img class="dsh-line2" src="img/longerdash.png">
+
+        <div class="tan-sq">
+                <p class="cut-h" id="h2">"Cut Here"</p>
+            <h2>Rock, Paper, Scissors Origins</h2>
+            <P class="h2p">The earliest form of Rock Paper Scissors was created in Japan and is called Janken.  This is a variation of the Chinese games introduced in the 17th century. Janken uses the Rock, Paper and Scissors signs. It is the game that the modern version of Rock Paper Scissors derives from directly. Hand-games using gestures to represent the three conflicting elements of rock, paper and scissors have been most common since the modern version of the game was created in the late 19th Century. This was between the Edo and Meiji periods.</p>
+                <img class="janken" src="img/janken.jpg" width="800px" height="500px" alt="japanese drawing of rock, paper, scissors">
+                   <p class="h2p">By the early 20th century, Rock Paper Scissors had spread beyond Asia, especially through increased Japanese contact with the West. Its English language name is therefore taken from a translation of the names of the three Japanese hand-gestures for rock, paper and scissors; elsewhere in Asia the open-palm gesture represents “cloth” rather than “paper”. The shape of the scissors is also adopted from the Japanese style.</P>
+        </div>
+
+        <div class="contacts">
+           <ul class="ul-con" id="contacts">
+                <li><a href="#">email: jeffsor17@gmail.com</a></li>
+                <li><a href="#">phone: ###-###-####</a></li>
+                <li><a href="#">instagram: defaultsoria</a></li>
+                <li><a href="#">twitter: defaultsoria</a></li>
+           </ul>
+        </div> 
+
+        <script src="newrps.js"></script>
+    </body>
+    <footer></footer>
+</html>
