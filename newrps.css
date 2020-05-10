@@ -72,7 +72,7 @@ h2 {
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 100px; 
+    margin-top:  10.319917440660475vh; 
 
 }
 
@@ -81,8 +81,8 @@ h2 {
     flex-direction: row;
     position: absolute;
     z-index: 2;
-    right: 96vh;
-    top: 30px;
+    right: 48.45vw;
+    top: 3.0959752321981426vh;
 }
 
 .score {
@@ -102,8 +102,8 @@ h2 {
     opacity: .8;
     position: absolute;
     z-index: 3;
-    left: 150px;
-    top: 200px;
+    left: 15.479876160990711vh;
+    top: 20.63983488132095vh;
     padding-bottom: 0px;
     font-weight: bolder;
 }
@@ -114,7 +114,7 @@ h2 {
     position: absolute;
     z-index: 2;
     right: 94vh;
-    top: 190px;
+    top: 19.607843137254903vh;
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
     font-size: 70px;
@@ -127,7 +127,7 @@ h2 {
     position: absolute;
     z-index: 2;
     right: 91vh;
-    top: 190px;
+    top: 19.607843137254903vh;
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
     font-size: 70px;
@@ -140,7 +140,7 @@ h2 {
     position: absolute;
     z-index: 2;
     right: 91vh;
-    top: 70px;
+    top: 7.223942208462332vh;
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
     font-size: 60px;
@@ -154,7 +154,7 @@ h2 {
     position: absolute;
     z-index: 2;
     right: 87vh;
-    top: 70px;
+    top: 7.223942208462332vh;
     font-family: 'Amatic SC', cursive;
     font-weight: bolder;
     font-size: 65px;
@@ -168,8 +168,8 @@ h2 {
 .reset1 {
     position: absolute;
     z-index: 3;
-    right: 600px;
-    top: 250px;
+    right: 31.25vw;
+    top: 25.799793601651185vh;
     cursor: pointer;
 }
 
@@ -177,16 +177,16 @@ h2 {
     display: none;
     position: absolute;
     z-index: 3;
-    right: 600px;
-    top: 250px;
+    right: 31.25vw;
+    top: 25.799793601651185vh;
     cursor: pointer;
 }
 
 .reset3 {
     position: absolute;
     z-index: 2;
-    right: 400px;
-    top: 250px;
+    right: 20.833333333333332vw;
+    top: 25.799793601651185vh;
     opacity: .9;
 }
 
