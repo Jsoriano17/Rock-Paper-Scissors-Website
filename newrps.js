@@ -5,44 +5,6 @@ scissors = document.getElementById('scissors')
 buttonOn = document.querySelector('.reset1')
 buttonOff = document.querySelector('.reset2')
 
-
-rock.addEventListener('mouseover', function() {
-    rock.style.width = '600px';
-    rock.style.height = '450px';
-    rock.style.left = '-50px';
-});
-
-
-rock.addEventListener('mouseout', function() {
-    rock.style.width = '500px';
-    rock.style.height = '350px';
-    rock.style.left = '10px';
-});
-
-paper.addEventListener('mouseover', function() {
-    paper.style.width = '480px';
-    paper.style.height = '480px';
-    paper.style.left = '32%';
-});
-
-
-paper.addEventListener('mouseout', function() {
-    paper.style.width = '380px';
-    paper.style.height = '380px';
-    paper.style.left = '35%';
-});
-
-scissors.addEventListener('mouseover', function() {
-    scissors.style.width = '580px';
-    scissors.style.height = '600px';
-});
-
-
-scissors.addEventListener('mouseout', function() {
-    scissors.style.width = '480px';
-    scissors.style.height = '500px';
-});
-
 buttonOn.addEventListener('mouseover', function () {
     buttonOn.style.display = 'none';
     buttonOff.style.display = 'block'

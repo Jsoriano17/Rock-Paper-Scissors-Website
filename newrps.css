@@ -194,44 +194,78 @@ h2 {
 /*rock paper scissors images
 */
 
-.img-spc {
-    margin-left: 60px;
-    margin-right: 60px;
-}
-
-.rps-con {
-    margin-top: 500px;
+.rps_con {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-top: 150px;
     display: flex;
-    justify-content: center;
     flex-direction: row;
+    justify-content: center;
     margin-bottom: 100px;
 }
 
-#rock {
-   cursor: pointer;
-   position: absolute;
-   top: 800px;
-   left: 10px;
+.r{
+    width: 330px;
+    height: 260px;
+    transition: all ease-in-out .1s;
 }
 
-#paper {
-    cursor: pointer;
-    position: absolute;
-    left: 35%;
-    top: 800px;
+.r_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 80px;
 }
 
-#scissors {
-    cursor: pointer;
-    position: absolute;
-    right: 30px;
-    top: 790px;
+.p {
+    width: 260px;
+    height: 260px;
+    transition: all ease-in-out .1s;
 }
 
-#rock:hover, #paper:hover, #scissors:hover {
+.p_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 80px;
+}
+
+.s {
+    width: 290px;
+    height: 290px;
+    transition: all ease-in-out .1s;
+}
+
+.s_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 80px;
+}
+
+.r:hover {
+    width: 380px;
+    height: 310px;
+}
+
+.p:hover {
+    width: 310px;
+    height: 310px;
+}
+
+.s:hover {
+    width: 340px;
+    height: 340px;
+}
+
+.r:hover, .s:hover, .p:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-}
+} 
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -268,7 +302,7 @@ h2 {
 }
 
 .dsh-line {
-    top: 1547px;
+    top: 1420px;
     position: absolute;
     z-index: 1;
 }
